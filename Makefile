@@ -3,7 +3,7 @@ PROJECT_NAME=got_microservice
 default: run
 
 tests:
-	pipenv run pytest --cov=. --cov-report html
+	pipenv run pytest --cov=. --cov-report html --ignore people --ignore places
 
 run:
 	pipenv run python main.py
