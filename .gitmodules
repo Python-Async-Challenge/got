@@ -1,0 +1,6 @@
+[submodule "people"]
+	path = people
+	url = git@github.com:Python-Async-Challenge/people.git
+[submodule "places"]
+	path = places
+	url = git@github.com:Python-Async-Challenge/places.git
