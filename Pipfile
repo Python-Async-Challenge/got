@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+yapf = "*"
+ipdb = "*"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+requests = "*"
+requests-async = "*"
+ipdb = "*"
+
+[requires]
+python_version = "3.7"
